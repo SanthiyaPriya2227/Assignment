@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>simple webpage</title>
+</head>
+<style>
+    img{
+        align-items: center;
+    }
+</style>
+<body>
+    <img src="C:\Users\Priya\Desktop\FRONT END\html\APJ-2008.jpg" alt="APJ-2008">
+    <p>
+        A.P.J. Abdul Kalam, in full Avul Pakir Jainulabdeen Abdul Kalam,
+        (born October 15, 1931, Rameswaram, India—died July 27, 2015, Shillong),
+        Indian scientist and politician who played a leading role in the development of India’s missile and
+        nuclear weapons programs. He was president of India from 2002 to 2007.
+        
+            Kalam earned a degree in aeronautical engineering from the Madras Institute of Technology and 
+            in 1958 joined the Defence Research and Development Organisation (DRDO). 
+            In 1969 he moved to the Indian Space Research Organisation, where he was project director of the SLV-III,
+             the first satellite launch vehicle that was both designed and produced in India. Rejoining DRDO in 1982, 
+             Kalam planned the program that produced a number of successful missiles, which helped earn him the nickname 
+              Man.” Among those successes was Agni, India’s first intermediate-range ballistic missile, which incorporated 
+              aspects of the SLV-III and was laun
+              <style>
+                  img{
+                      align-items: center;
+                  }
+              </style>ched in 1989.
+            
+</p>
+<img src="C:\Users\Priya\Desktop\FRONT END\html\a.jpg" alt="APJ-2008">
+
+<img src="C:\Users\Priya\Desktop\FRONT END\html\b.jpg" alt="APJ-2008">
+<video controls>
+    <source src="C:\Users\Priya\Downloads\y2mate.com - The Most Inspiring Speech 4 True Rules To Success  A P J Abdul Kalam_144p.3gb">
+</video>
+<audio controls>
+    <source src="C:\Users\Priya\Downloads\y2mate.com - The Most Inspiring Speech 4 True Rules To Success A P J Abdul Kalam_144p (online-audio-converter.com).mp3"> 
+</audio>
+    
+</body>
+</html>
