@@ -1,0 +1,34 @@
+compiler:
+1.compiler is a language processer which converts high-level language(HLL) to low-level language(LLL).
+2.It scans the entire programs first and translate it into machine code
+3.Debugging is slow 
+4.Execution time is less.
+Interpreter:
+1.Interpreter is a language processor which converts low level language(LLL) to high level 
+2.It scans line by line programs and convert into machine code
+3.Debugging is high.
+4.Execution time is more.
+
+import java.util.Scanner;
+class Student{
+public static void main(String args[]){
+
+int roll;
+String name;
+float marks;
+
+Scanner a = new	Scanner(System.in);
+
+System.out.println("Enter Your Roll Number: ");
+roll = a.nextInt();
+
+a.nextLine();
+System.out.println("Enter Your Name: ");
+name = a.nextLine();
+
+System.out.println("Enter your Marks: ");
+marks = a.nextFloat();
+}
+}
+
+                       
