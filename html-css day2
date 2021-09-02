@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tables, Forms, CSS Basics</title>
+        <link rel="icon" href="./media/avenger.jpg">
+    </head>
+    <body>
+
+        <table border="1">
+           <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Phone Number</th>
+                    <th>Email</th>
+                    <th>State</th>
+                    <th>country</th>
+                </tr>
+           </thead>
+           <tbody>
+                <tr>
+                    <td>Priya</td>
+                    <td>1234574590</td>
+                    <td>abcd@gmail.com</td>
+                    <td>Tamilnadu</td>
+                    <td>India</td>
+                </tr>
+                <tr>
+                    <td>Santhiya</td>
+                    <td>1595456265</td>
+                    <td>xyz@gmail.com</td>
+                    <td>Karnataka</td>
+                    <td>India</td>
+                </tr>
+                <tr>
+                    <td>Kumar</td>
+                    <td>9886806602</td>
+                    <td>tuyj@gmail.com</td>
+                    <td>Kerala</td>
+                    <td>India</td>
+                   
+                </tr>
+                <tr>
+                    <td >Santhosh</td>
+                    <td>9875646489</td>
+                    <td>srjgsl@gmail.com</td>
+                    <td>Andhra</td>
+                    <td>India</td>
+                </tr>
+                <tr>
+                    <td>Laxmi</td>
+                    <td>4394288462</td>
+                    <td>wsrgs@gmail.com</td>
+                    <td>Delhi</td>
+                    <td>India</td>
+                    
+                </tr>
+           </tbody>
+        </table>
+        <form>
+            <input type="text" placeholder="Enter Your Name" required>
+            <input type="email" placeholder="Enter Your Email" required>
+            <input type="password" placeholder="Enter Your Password" required>
+            <input type="text" placeholder="Enter your Username" required>
+        </form>
+      
+    </body>
+</html>
+        
