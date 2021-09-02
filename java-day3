@@ -1,0 +1,80 @@
+
+import java.io.*;
+
+public class car
+{
+  
+
+public  void input()
+ {
+   
+System.out.println("Enter the distance in km");
+  
+int dist=Integer.parseInt(br.readline());
+   
+ 
+}
+  
+public void cal()
+  {
+   
+if ((dist>0) && (dist<=5))
+    {
+   
+amt=5*dist;
+    
+}
+    
+    
+else if ((dist>5) && (dist<=15))
+   {
+     
+amt=10*dist;
+   
+}
+    
+    
+else if ((dist>15) && (dist<=25))
+  {
+    
+amt=15*dist;
+  
+}
+   
+else
+  {
+     
+amt=20*dist; 
+ 
+}
+    
+  
+}
+ 
+public void diplay()
+  {
+   
+System.out.println("The bill for "+dist+" kms is Rs"+amt);
+  
+}
+ 
+public static void main (String[] args) throws IOException
+  {
+  
+int amt=0;
+ 
+IputStreamReader reader= new InputStreamReader (System.in
+BufferedReader br= new BufferedReader (reader);
+   
+car obj=new taxi();
+    
+obj.input();
+
+obj.cal();
+   
+obj.diplay();
+ 
+}
+
+}
+
